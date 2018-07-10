@@ -25,3 +25,14 @@ A webapp deployed with HTML, CSS, and JavaScript that will create a tavern name,
   * [ ] Etc.
 - [ ] Buttons to replace the Tavern name on the right doc, or to add a drink on the right doc readout
 - [ ] Button to take the doc readout on right and either export it as a PDF or Word document
+
+## Extended Features if I Feel Like it
+- Option to delete drinks
+- Option to generate multiple names or drinks at once, user specified
+- Help Area
+- Sleeker look
+
+
+### Credits
+* Me of course, check out my github at [mitchahan](github.com/mitchahan).
+* Initial JS for random tavern names was copied from [Fantasy Name Generators](http://www.fantasynamegenerators.com/inn_names.php) for now, I will change that later.
