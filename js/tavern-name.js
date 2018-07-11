@@ -31,7 +31,7 @@ function drinkGen() {
 		document.getElementById('drink-name').value = name;
 }
 
-var price = ["1 Gold Piece", "2 Gold Pieces", "1 Gold Piece"];
+var price = ["1 Gold Piece", "2 Gold Pieces", "1 Gold Piece", "1 Gold Piece"];
 var color = ["yellow", "deepstraw/gold", "deep gold", "light yellow", "amber", "light amber", "copper", "red/brown", "brown", "light brown", "dark brown", "black", "straw", "pale gold", "ruby brown", "red", "cherry", "crimson", "ruby", "Bburgundy", "ivory", "lavender", "acid green", "bonemeal", "turquoise", "shamrock", "cerulean", "sky blue", "olive", "mahogany", "yellow green", "cocoa", "indigo", "mint", "dark violet", "lime green", "teal", "aqua blue", "cyan", "cienna", "white"];
 var liquid = ["fizzy", "bubbly", "opaque", "sticky", "cloudy", "translucent", "syrupy", "glowing"];
 var smell = ["like freshly baked bread", "like bacon", "like freshly cut grass", "like coffee", "like the seaside", "like fresh flowers", "like roses", "like vanilla", "like log fires", "like chocolate", "like lemon", "like lavender", "like cinnamon", "like orange", "like coconut", "like leather", "like aftershave", "like a bonfire", "like lime", "like death", "like cheese", "like wood stain", "corky", "foul", "gamy", "putrid", "rancid", "savory", "sweet", "stinky", "bitter", "fruity", "like honey", "heavenly", "peppery", "salty", "like ass"];
@@ -46,6 +46,6 @@ function descGen() {
 				rnd2 = Math.floor(Math.random() * color.length);
 			}
 		}
-		name = price[rnd] + "; is " + color[rnd2] + ", " + liquid[rnd3] + ", and smells " + smell[rnd4] + ".";
-		document.getElementById('description').value = name;
+		name = price[rnd] + "; is " + color[rnd2] + " in color, " + liquid[rnd3] + ", and smells " + smell[rnd4] + ".";
+		document.getElementById('pdescription').innerHTML = name;
 }
