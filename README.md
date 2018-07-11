@@ -7,20 +7,21 @@ A webapp deployed with HTML, CSS, and JavaScript that will create a tavern name,
   - [X] Done
 
 ## Basics:
-- [ ] Main Layout html
-- [ ] Simple CSS Styling
+- [ ] *Main Layout HTML*
+- [ ] *Simple CSS Styling*
 - [ ] Button Layout for JS
-- [ ] Start of JS Programming
-  * [ ] Tavern Generator
-  * [ ] Drink Name Generator
-  * [ ] Drink Description Generator
+- [x] Start of JS Programming
+  * [x] Tavern Generator
+  * [x] Drink Name Generator
+  * [x] Drink Description Generator
+- [ ] Other JS Programming
 
 ## MAIN FEATURES:
-- [ ] Generate a Tavern Name
-- [ ] Generate a Drink
-  * [ ] Name
-  * [ ] Type
-  * [ ] Description
+- [x] Generate a Tavern Name
+- [x] Generate a Drink
+  * [x] Name
+  * [x] Type
+  * [x] Description
   * [ ] Effects?
   * [ ] Etc.
 - [ ] Buttons to replace the Tavern name on the right doc, or to add a drink on the right doc readout
@@ -32,6 +33,9 @@ A webapp deployed with HTML, CSS, and JavaScript that will create a tavern name,
 - Help Area
 - Sleeker look
 
+## Other Things
+- [ ] Better way to store descriptors for random generators
+- [ ] better lists of words for the generators
 
 ### Credits
 * Me of course, check out my github at [mitchahan](github.com/mitchahan).
